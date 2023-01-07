@@ -208,3 +208,21 @@ footer .footerContentBox{
     cursor: pointer;
 }
 
+/* My Gallery Section */
+#myGallery{
+    margin-top: 100px;
+    text-align: center;
+}
+.galleryTitle{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+#myGallery .galleryImages img{
+    width: 350px;
+    height: 250px;
+}
+#myGallery .galleryImages ul li{
+    padding: 10px 20px;
+}
+
