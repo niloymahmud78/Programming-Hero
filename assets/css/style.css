@@ -9,7 +9,7 @@ ul li{
     list-style: none;
 }
 #bannerSec{
-    background: #fff url(/assets/images/banner/banner2.png) center center/cover no-repeat;
+    background: #fff url(../images/banner/banner2.png) center center/cover no-repeat;
     width: 100%;
 }
 header .titleBox{
@@ -181,6 +181,9 @@ footer .footerContentBox{
     font-weight: 600;
     margin-bottom: 10px;
 }
+#leftFootercol article{
+    font-size: 16px;
+}
 #rightFootercol .rightTitleTxt{
     font-size: 35px;
     font-weight: 600;
@@ -204,3 +207,4 @@ footer .footerContentBox{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
 }
+
