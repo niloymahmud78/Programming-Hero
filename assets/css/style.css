@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+ul li{
+    list-style: none;
+}
+#bannerSec{
+    background: #fff url(/assets/images/banner/banner2.png) center center/cover no-repeat;
+    width: 100%;
+}
+header .titleBox{
+    width: 560px;
+    margin-left: 55%;
+    padding:130px 0;
+    display: inline-block;
+    text-align: right;
+}
+header .bannerTitle{
+    color: #151414;
+    font-size: 65px;
+    width: 100%;
+}
+header article{
+    font-size: 16px;
+    color: #444343;
+    padding-top: 24px;
+}
+.contactBtn{
+    padding: 20px 25px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background: #F15B22;
+    margin-top: 30px;
+    text-align: right;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contactBtn:hover{
+    background: #f15d22cb;
+}
+
+/* Second Section CSS */
+main{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+#secondSec{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    padding: 20px 60px;
+}
+#secondSec .contentRow{
+    margin-left: 40px;
+}
+#secondSec .contentRow h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+#secondSec .contentRow article{
+    color: #444343;
+    font-size: 16px;
+    padding-top: 24px;
+}
+#secondSec ul{
+ margin-top: 15px;  
+}
+#secondSec ul li{
+    color: #444343;
+    font-size: 16px;
+    padding: 5px 0;
+}
+#secondSec ul li .checkIcon{
+    width: 18px;
+    padding: 0 5px;
+}
+.fa-check{
+    color: #16D887;
+}
+
+/* My plans css  */
+#myPlansSec{
+    margin-top: 100px;
+    text-align: center;
+}
+#myPlansSec .planTitle{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+}
+#myPlansSec ul {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#myPlansSec .titleImg{
+    width: 90px;
+}
+#myPlansSec .titleTxt{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+#myPlansSec .titleDetails{
+    color: #737272;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+/* Overlay Bg Sec  */
+#overlayBgSec{
+    background-image: url(../images/watch.png);
+    height: 300px;
+    margin-top: 125px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+#overlayBgSec .overlayTitle{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    
+}
+#overlayBgSec .overlayContentBox{
+    position: absolute;
+    width: 460px;
+    right: 50%;
+}
+#overlayBgSec .overlayButton{
+    padding: 15px 20px;
+    color: #F15B22;
+    font-size: 20px;
+    border: none;
+    background: white;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+#overlayBgSec .overlayButton:hover{
+    background: #F15B22;
+    color: white;
+    border: 1px solid white;
+}
+
+/* Footer Section  */
+footer{
+    background: #151414;
+    color: white;
+    margin-top: 100px;
+}
+footer .footerContentBox{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 50px;
+}
+#leftFootercol{
+    width: 60%;
+    padding-right: 30%;
+}
+#leftFootercol ul li{
+    padding: 5px 10px;
+}
+#leftFootercol .leftTitleTxt{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#rightFootercol .rightTitleTxt{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+#rightFootercol .footerEmail{
+    background-color: #151414;
+    border: 1px solid #F3F3F3;
+    color: #F3F3F3;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.footerSubmitBtn{
+    color: #F15B22;
+    font-size: 20px;
+    padding: 10px 20px;
+    background: #F3F3F3;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
